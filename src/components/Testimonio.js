@@ -1,8 +1,8 @@
 import React from 'react';
-
-function Testimonio (){
+import '../stylesheets/Testimoni.css';
+function Testimonio (props) {
   return (
-    <div className='contenedor-testimonio'>
+    <div className='contenedor-testimonio  '>
       <img className='imagen-testimonio' 
        src={require ('../assets/img/pokemon-pikachu.jpg')}
        alt='Foto de Pikachu'/>
