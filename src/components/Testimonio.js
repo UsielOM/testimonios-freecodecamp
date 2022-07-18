@@ -3,7 +3,7 @@ import React from 'react';
 function Testimonio (){
   return (
     <div className='contenedor-testimonio'>
-      <img className='imagen-testimonio'
+      <img className='imagen-testimonio' 
        src={require ('../assets/img/pokemon-pikachu.jpg')}
        alt='Foto de Pikachu'/>
       <div className='contendor-texto-testimonio'>
@@ -15,3 +15,4 @@ function Testimonio (){
     
   );
 }
+export default Testimonio;
